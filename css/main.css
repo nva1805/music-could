@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.music-project {
+    width: 300px;
+}
+.music-info { 
+    position: relative;
+    background-color: #d4a6a6;
+    /* height: 340px; */
+}
+.music-title .music-status {
+    color: #333;
+    opacity: 0.7;
+    text-align: center;
+    display: block;
+    margin-bottom: 8px;
+}
+.music-title .song-name {
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+}
+
+.cd {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 15px auto;
+    
+}
+.cd img {
+    height: 100%;
+    width: auto;
+    /* display: block; */
+    overflow: hidden;
+}
+
+.toolbar {
+    padding-top: 15px;
+    box-shadow: 0 1px 6px 4px #ac8181;
+}
+.toolbar .tool {
+    display: flex;
+    color: #000;
+    opacity: 0.6;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+.tool .play {
+    color: #Fff;
+    background-color: red;
+    font-size: 26px;
+    padding: 8px 14px;
+    border-radius: 50%;
+}
+.tool .play i:last-child {
+    display: none;
+}
+/* ----khi bai hat duoc phat----- */
+.tool .playing i:first-child {
+    display: none;
+}
+.tool .playing i:last-child{
+    display: block;
+    font-size: 30px;
+}
+/* ----------------- */
+.tool .active {
+    color: blue;
+    font-size: 15px;
+}
+.time .progress {
+    width: 90%;
+    margin: 15px;
+}
+
+
+/* phan danh sach bai hat */
+.background {
+    background-color: rgb(232, 221, 221);
+    width: 100%;
+   height: 504px;
+}
+
+
+.background .list-song {
+    width: 90%;
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.background .active {
+    background-color: #d4a6a6;
+    color: #fff;
+}
+.list-song .song-cd img {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    align-items: center;
+    margin: 5px 0 0 8px;
+}
+.list-song .song-title {
+    flex-basis: 60%;
+}
+.song-title .song-name {
+    color: #000;
+    font-size: 16px;
+}
+.song-title .song-author {
+    color: #333;
+    font-size: 10px;
+}
+.background .active .song-name {
+    font-size: 16px;
+    color: red;
+}
+.background .active .song-author {
+    font-size: 10px;
+    color: red;
+}
+.list-song .song-love {
+    padding: 22px;
+}
+.song-love .song-love-sChild i:last-child {
+    padding: 22px;
+    display: none;
+}

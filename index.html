@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Music cloud</title>
+</head>
+<body>
+    <section class="music-project">
+        <div class="music-info">
+            <div class="music-title">
+                <span class="music-status">Now Playing</span>
+                <h4 class="song-name">Summer Time</h4>
+                <div class="choose">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="cd">
+                <img src="./picture/summerTime.png" alt="">
+            </div>
+            <div class="toolbar">
+                <div class="tool">
+                    <div class="repeat">
+                        <i class="fa-solid fa-repeat"></i>
+                    </div>
+                    <div class="back">
+                        <i class="fa-solid fa-backward"></i>
+                    </div>
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-pause"></i>
+                    </div>
+                    <div class="next">
+                        <i class="fa-solid fa-forward"></i>
+                    </div>
+                    <div class="random">
+                        <i class="fa-solid fa-shuffle"></i>
+                    </div>
+                </div>
+                <div class="time-now">
+                    <span class="currentTimeNow"></span>
+                    <span class="durationTimeNow"></span>
+                </div>
+                <div class="time">
+                    <input type="range" class="progress" name="" id="" value="0" step="0.05" min="0" max="100">
+                </div>
+                <audio class="audio" src=""></audio>
+            </div>
+        </div>
+        <div class="background">
+            <div class="list-song-position">
+
+            </div>
+        </div>
+        
+    </section>
+    <script src="./js/app.js"></script>
+</body>
+</html>
